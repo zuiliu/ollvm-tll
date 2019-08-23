@@ -22,6 +22,8 @@ How to Build:
   $ mkdir build
   $ cd build
   $ cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ../ollvm-tll/
+  #ubuntu 18.04
+  $ cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF ../ollvm-tll/
   $ make -j7
 
   
